@@ -1,0 +1,42 @@
+[project]
+name = "avatar_core"
+version = "0.0.15"
+description = ""
+authors = [
+    { name = "Michael Sinko", email = "michael.v.sinko@gmail.com" },
+]
+dependencies = [
+    "pydantic[dotenv]>=1.9.2",
+    "fastapi>=0.79.0",
+    "addict>=2.4.0",
+    "redis[hiredis]>=4.3.4",
+    "aio-pika>=8.1.1",
+    "sqlalchemy[asyncio]>=1.4.40",
+    "asyncpg>=0.26.0",
+    "fastapi-keycloak>=1.0.7",
+    "motor>=3.0.0",
+    "dependency-injector>=4.40.0",
+]
+requires-python = ">=3.10,<3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.build]
+package-dir = "."
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "build>=0.8.0",
+    "alembic>=1.8.1",
+    "psycopg2>=2.9.5",
+]
