@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: avatar_core
-Version: 0.0.15
+Name: expert_core
+Version: 0.0.1
 License: MIT
 Author-email: Michael Sinko <michael.v.sinko@gmail.com>
 Requires-Python: >=3.10,<3.12
@@ -24,7 +24,6 @@ Description-Content-Type: text/markdown
 ## Requirements
 
 - python 3.10+
-- avatar-core
 
 ```bash
 pip install avatar-core \
