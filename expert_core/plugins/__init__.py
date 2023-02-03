@@ -49,7 +49,6 @@ __all__ = [
     "Postgres",
     "PostgresPlugin",
     "PostgresSettings",
-    "depends_psql",
     "depends_db_engine",
     "depends_db_session_factory",
     "depends_redis",

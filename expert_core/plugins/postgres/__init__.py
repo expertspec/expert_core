@@ -24,5 +24,4 @@ __all__ = [
     "depends_psql_engine",
     "depends_db_session_factory",
     "depends_db_listener",
-    "depends_psql_listener",
 ]
