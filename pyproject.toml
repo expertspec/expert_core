@@ -7,16 +7,16 @@ authors = [
     { name = "Andrew Laptev", email = "nickname.avast@gmail.com" },
 ]
 dependencies = [
-    "pip==23.0",
-    "addict==2.4.0",
-    "python-dotenv==0.21.1",
-    "fastapi==0.90.0",
-    "fastapi-keycloak==1.0.9",
-    "redis[hiredis]==4.3.4",
-    "aio-pika==8.1.1",
-    "sqlalchemy[asyncio]==2.0.1",
-    "asyncpg==0.26.0",
-    "motor==3.0.0",
+    "pip~=23.0",
+    "addict~=2.4.0",
+    "python-dotenv~=0.21.1",
+    "fastapi~=0.90.0",
+    "fastapi-keycloak~=1.0.7",
+    "redis[hiredis]~=4.3.4",
+    "aio-pika~=8.1.1",
+    "sqlalchemy[asyncio]~=2.0.1",
+    "asyncpg~=0.26.0",
+    "motor~=3.0.0",
 ]
 requires-python = ">=3.10,<3.11"
 readme = "README.md"
