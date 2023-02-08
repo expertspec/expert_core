@@ -18,7 +18,7 @@ dependencies = [
     "asyncpg~=0.26.0",
     "motor~=3.0.0",
 ]
-requires-python = ">=3.10,<3.11"
+requires-python = "~=3.10.6"
 readme = "README.md"
 
 [project.license]
@@ -28,7 +28,7 @@ text = "MIT"
 
 [build-system]
 requires = [
-    "pdm-pep517>=1.0.0",
+    "pdm-pep517~=1.1.2",
 ]
 build-backend = "pdm.pep517.api"
 [tool.pdm]
